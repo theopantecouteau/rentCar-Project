@@ -1,0 +1,130 @@
+.container-picker{
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #1c2237;
+    display: flex;
+    flex-direction: column;
+    gap:2% ;
+
+}
+
+.container-picker .react-calendar{
+    width: 50%;
+    margin-inline : auto;
+}
+
+.container-picker select{
+    width: 20%;
+    margin-inline: auto;
+    margin-top: 2%;
+}
+
+.container-picker h1 {
+    text-align: center;
+    font-weight: 800;
+    color: #c3c3c3;
+    font-size: 40px;
+}
+
+.container-picker .btn {
+    width: 20%;
+    margin-inline: auto;
+    margin-top: 2%;
+}
+
+.search-voiture{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-calendar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-calendar p {
+    color: #c3c3c3;
+    margin: 2%;
+}
+
+.calendar1, .calendar2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#selected-voiture{
+    color: #c3c3c3;
+    background-color: #1c2237;
+    border: #c3c3c3;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #c3c3c3;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3c3c3;
+}
+
+.container-price{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #c3c3c3;
+    font-weight: 800;
+    width: auto;
+    margin-inline : auto;
+    font-size: 30px;
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+.new {
+    color: red;
+}
+
+.img-rental{
+    width: 100px;
+    height: 50px;
+}
+
+@media screen and ( max-width : 415px){
+    .container-picker{
+        height: auto;
+        min-height: 100vh;
+    }
+    .container-calendar{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn {
+        width: 95% !important;
+        margin: 10px 0;
+        margin-inline: auto;
+    }
+}

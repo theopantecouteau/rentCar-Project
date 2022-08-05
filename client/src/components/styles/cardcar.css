@@ -1,0 +1,145 @@
+.container-cardcar{
+    position: fixed;
+    top: 6%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    color: white;
+    margin-inline: auto;
+    
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+.col2{
+    padding-top: 8%;
+    background-color: #1c2237;
+    
+}
+
+.col1{
+    padding-top: 10%;
+    background-color: #f7f8fa;
+}
+
+.croix {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+    color: #f00946;
+}
+
+.title, .type, .description, .prix {
+    text-align: center;
+}
+
+.type{
+    color: #f00946;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 5%;
+}
+
+.title{
+    margin-bottom: 24px;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.image{
+    object-fit: contain;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.description {
+    margin-top: 3%;
+    color: #f7f8fa ;
+    font-weight: 400;
+    width: 100%;
+    padding: 2%;
+    margin-inline: auto;
+    font-size: 20px;
+    
+
+}
+
+.prix {
+    font-size: 25px;
+    font-weight: 600;
+    color: #f00946;
+
+}
+
+.info{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    gap: 2em;
+    margin-top: 5%;
+}
+
+.btn-container img {
+    width: 100px;
+    height: 30px;
+}
+
+.col1 p {
+    margin-top: 2%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 415px){
+    .container-cardcar{
+        flex-direction: column-reverse;
+        height: 200vh;
+        position: inherit;
+    }
+    .col1, .col2{
+        width: 100%;
+        height: 100vh;
+    }
+    .col2{
+        padding-top: 50px;
+    }
+    .col1 p{
+        margin-top: 50px;
+    }
+}
+
+.loading-spin {
+    vertical-align: auto;
+}
+
+.button-price {
+    width: 20%;
+    margin-inline: auto;
+}

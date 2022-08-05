@@ -1,0 +1,46 @@
+.good {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 2vh;
+    background-color: rgb(167, 255, 155);
+    color: black;
+    text-align: center;
+    margin: 2px auto 2px auto;
+    gap: 85%;
+}
+
+.good p {
+    color: green;
+}
+
+.false{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 70, 70);
+    color: black;
+    text-align: center;
+    margin: 2px auto 2px auto;
+}
+
+.false p {
+    width: 100%;
+}
+
+.close{
+    position: relative;  
+}
+
+.close, p{
+    margin-top: 3px;
+}
+
+.send p {
+    color: green;
+}
+
+.close:hover{
+    cursor: pointer;
+}

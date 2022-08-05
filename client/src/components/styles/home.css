@@ -1,0 +1,47 @@
+.container-for-zIndex{
+    z-index: 10;
+}
+
+.icon-pub {
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    margin-top: 5% ;
+    justify-content: space-around ;
+    margin-inline: auto;
+}
+
+.annulation {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h4 {
+    font-size: 25px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+@media screen and (max-width : 415px){
+    .icon{
+        margin-top: 5% !important;
+        padding: 2%;
+    }
+
+    .annulation{
+        margin-top: 20px;
+    }
+
+    .text{
+        margin-left: 2%;
+    }
+}
